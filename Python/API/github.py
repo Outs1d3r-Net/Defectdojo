@@ -6,10 +6,10 @@ class Github(object):
     def GithubClone():
 
         # Endereço do Repositório
-        repo_url = 'https://github.com/Contrast-Security-OSS/vulnpy.git'
+        repo_url = '<GIT_PROJECT_URL>'
 
         # Diretório onde o projeto será clonado
-        local_dir = '/home/mgchahad/Documents/Defectdojo/automation-reports/vulnpy'
+        local_dir = '<LOCAL_DIRECTORY>'
 
         # Clonando o repositório
         print("Clonando repositório...")

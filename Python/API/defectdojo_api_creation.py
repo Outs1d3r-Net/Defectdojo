@@ -15,10 +15,10 @@ class DefectdojoResources(object):
     def ResourcesCreation():
 
         # URL do DefectDojo para API
-        url = "http://192.168.1.108:8080/api/v2"
+        url = "http://<IP_ADDRESS>:8080/api/v2"
 
         # API Key
-        api_key = "654fb7c6af41b9c43b18ede8c90645cba1f71003"
+        api_key = "<USER_KEY>"
 
         # Configuração de Headers
         headers = {
@@ -87,7 +87,7 @@ class DefectdojoResources(object):
 
         # Configurações de envio para o Engagement
         print("Importando relatório de vulnerabilidades...")
-        url_import_scan = "http://192.168.1.108:8080/api/v2/import-scan/"
+        url_import_scan = "http://<IP_ADDRESS>:8080/api/v2/import-scan/"
         scan_payload = {
             "headers": {"Authorization": f"Token {api_key}"},
                 "json": {
